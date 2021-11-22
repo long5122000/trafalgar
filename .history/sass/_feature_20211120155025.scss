@@ -1,0 +1,13 @@
+.feature {
+  &-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &-content {
+    max-width: 450px;
+  }
+  &-desc {
+    margin-bottom: 37px;
+  }
+}

@@ -1,0 +1,10 @@
+.article {
+  &-heading {
+    margin-bottom: 80px;
+  }
+  &-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0 34px;
+  }
+}

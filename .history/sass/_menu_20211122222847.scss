@@ -1,0 +1,61 @@
+.menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 0 40px;
+  &-link {
+    color: inherit;
+    font-size: 18px;
+    transition: all 0.2s linear;
+    font-weight: 400;
+    &:hover {
+      color: $black;
+      font-weight: bold;
+    }
+  }
+  &-toggle {
+    font-size: 20px;
+    display: none;
+    cursor: pointer;
+  }
+  &-bg {
+    width: 50px;
+    height: 50px;
+    border-radius: 100rem;
+    background-color: $primary-color;
+    position: fixed;
+    right: 15px;
+    z-index: 0;
+    transform: scale(0);
+    transition: all 0.2s linear;
+    &.is-active {
+      transform: scale(100);
+    }
+  }
+  @media screen and (max-width: 767px) {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9;
+    background-color: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    width: 300px;
+    flex-direction: column;
+    padding-top: 100px;
+    // transform: translateX(100%);
+    transition: all 0.2s linear;
+    width: 100%;
+    &-item {
+      width: 100%;
+    }
+    &-link {
+      display: block;
+      padding: 15px 25px;
+      text-align: center;
+    }
+    &-toggle {
+      display: inline-block;
+    }
+  }
+}

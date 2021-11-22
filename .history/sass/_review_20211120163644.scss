@@ -1,0 +1,8 @@
+.review {
+  &-heading {
+    color: white;
+    &:before {
+      background-color: white;
+    }
+  }
+}

@@ -1,0 +1,23 @@
+window.addEventListener("load" , function(){
+    const menu = document.querySelector(".menu")
+    const menuBg = document.querySelector(".menu-bg")
+    const menuToggle = document.querySelector(".menu-toggle")
+    const menuClose = document.querySelector(".menu-close")
+    menuToggle.addEventListener( "click" , handleToggleMenu);
+    function handleToggleMenu(e){
+        menuBg.classList.add("is-active" );
+        menu.classList.add("is-active");
+        menuClose.classList.add("is-active");
+    }
+    menuClose.addEventListener("click", function(){
+        menuBg.classList.remove("is-active");
+        menu.classList.remove("is-active");
+        this.classList.remove("is-active");
+    })
+})
+
+$('.multiple-items').slick({
+    infinite: true,
+    slidesToShow: 3,
+    slidesToScroll: 3
+  });

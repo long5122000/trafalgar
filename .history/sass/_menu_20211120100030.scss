@@ -1,0 +1,13 @@
+.menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 0 40px;
+  &-link {
+    color: inherit;
+    font-size: 18px;
+    &:hover {
+      color: $black;
+    }
+  }
+}

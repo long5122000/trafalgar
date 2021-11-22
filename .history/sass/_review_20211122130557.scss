@@ -1,0 +1,27 @@
+.review {
+  &-heading {
+    --heading-color: white;
+    margin-bottom: 66px;
+  }
+  &-main {
+    background: linear-gradient(208.18deg, #67c3f3 9.05%, #5a98f2 76.74%);
+    border-radius: 24px;
+    padding: 64px 118px 80px;
+  }
+  &-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0 30px;
+    color: white;
+  }
+  &-customer {
+    display: flex;
+    align-items: center;
+    gap: 0 29px;
+  }
+  &-avatar {
+    width: 141px;
+    height: 141px;
+    border-radius: 100rem;
+  }
+}

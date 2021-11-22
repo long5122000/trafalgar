@@ -1,0 +1,10 @@
+.feature {
+  &-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &-desc {
+    margin-bottom: 37px;
+  }
+}

@@ -1,0 +1,17 @@
+.feature {
+  &-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &-content {
+    max-width: 420px;
+    width: 100%;
+  }
+  &-image {
+    transform: translateX(-56px);
+  }
+  &-desc {
+    margin-bottom: 37px;
+  }
+}

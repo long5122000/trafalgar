@@ -517,7 +517,7 @@ body {
   position: absolute;
   bottom: 0;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translate(-50%, -40%);
   list-style: none;
   display: flex;
   align-items: center;
@@ -538,6 +538,25 @@ body {
 }
 .review .slick-initialized .slick-slide {
   display: grid;
+}
+.review .slick-arrow {
+  position: absolute;
+  bottom: 0;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  color: #458ff6;
+  font-size: 20px;
+  left: 50%;
+  bottom: 0;
+}
+.review .slick-next {
+  transform: translate(120px, 0);
+  left: auto;
+  right: 50%;
+}
+.review .slick-prev {
+  transform: translate(-120px, 0);
 }
 @media screen and (max-width: 1023px) {
   .review {

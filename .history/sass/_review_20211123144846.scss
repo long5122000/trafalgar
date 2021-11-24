@@ -68,7 +68,7 @@
     position: absolute;
     bottom: 0;
     left: 50%;
-    transform: translate(-50%, -40%);
+    transform: translateX(-50%);
     list-style: none;
     display: flex;
     align-items: center;
@@ -99,7 +99,6 @@
     color: $primary-color;
     font-size: 20px;
     left: 50%;
-    bottom: 0;
   }
   .slick-next {
     transform: translate(120px, 0);

@@ -45,7 +45,10 @@
     left: 50%;
     transform: translateX(-50%);
   }
-
+  .slick-arrow {
+    position: absolute;
+    bottom: 0;
+  }
   @media screen and (max-width: 1023px) {
     --columns: 2;
     margin-bottom: 100px;
